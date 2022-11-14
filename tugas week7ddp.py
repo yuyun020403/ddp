@@ -12,6 +12,7 @@ print("NIM \t\t: %s"
 
 
 #-----tuple dan list lulus minimal 60,jika<=60 dinyatakan gagal----#
+ket = ('Gagal','Lulus',) [nilai >= 60]
 if nilai >= 85 and nilai < 100:
       grade = 'A'
       predikat = 'Memuaskan'
@@ -34,6 +35,6 @@ print('Keterangan: %s'
       '\nGrade\t: %s'
       '\nPredikat\t: %s'
       '\n------------------'
-      % (nilai,grade,predikat)
+      % (ket,grade,predikat)
 )
 
